@@ -49,3 +49,82 @@ footer {
     padding: 0px;
     margin-top: auto;
 }
+
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #333; /* Cinza escuro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Branco */
+    font-weight: bold;
+}
+
+/* Estilo do cabeçalho */
+main {
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Estilo do formulário */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Cinza escuro */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Cinza claro */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: #fff; /* Branco */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
